@@ -10541,5 +10541,5 @@ Delete Settings for Chrome ADMX
 Steps:
 
 1. Copy the above content
-2. Go to Workspace One Console and add new profile --> Windows --> Windows Desktop --> Device --> Custom settings
+2. Go to Workspace One Console and add new profile --> Windows --> Windows Desktop --> Device --> Custom settings --> Select Target as OMA DM Client
 3. Paste the copied content and push it the group of devices
