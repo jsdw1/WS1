@@ -10532,3 +10532,14 @@ Delete Settings for Chrome ADMX
     </policy>
   </policies>
 </policyDefinitions>]]></Data></Item></Delete>
+
+
+==================================================================================================================================================================
+
+# The above custom profile will let you add the Chrome ADMX on Windows 10/11 machines to manage Chrome Browser
+
+Steps:
+
+1. Copy the above content
+2. Go to Workspace One Console and add new profile --> Windows --> Windows Desktop --> Device --> Custom settings
+3. Paste the copied content and push it the group of devices
