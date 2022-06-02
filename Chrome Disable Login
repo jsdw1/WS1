@@ -1,0 +1,4 @@
+<Replace><CmdID>71</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome/BrowserSignin</LocURI></Target><Data><![CDATA[<disabled/>]]></Data></Item></Replace>
+
+# The above custom profile blocks the user from installing extensions on Chrome Browser on Windows 10/11 devices
+# Pre-requisite -- Push the Chrome ADMX to devices as custom profile -- Link to Chrome ADMX profile -->  https://github.com/jsdw1/WorkspaceONE-UEM-Chrome-Browser-Custom-Profiles/blob/main/Custom%20Profile%20Chrome%20ADMX
