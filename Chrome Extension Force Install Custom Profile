@@ -2,3 +2,4 @@
 
 
 # Replace the extension ID of your own requirement and keep the rest of content same and push it as custom settings to Windows 10/11 Chrome browser.
+# Pre-requisite -- Push the Chrome ADMX to devices as custom profile -- Link to Chrome ADMX profile -->  https://github.com/jsdw1/WorkspaceONE-UEM-Chrome-Browser-Custom-Profiles/blob/main/Custom%20Profile%20Chrome%20ADMX
