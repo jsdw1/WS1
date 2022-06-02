@@ -1,0 +1,16 @@
+<Replace>
+<CmdID>100001</CmdID>
+<Item>
+<Target>
+<LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~DeprecatedPolicies/DeveloperToolsDisabled</LocURI>
+</Target>
+<Data>
+<![CDATA[<enabled/>
+<data id="DeveloperToolsDisabled" value="1&#xf000;*"/>]]>
+</Data>
+</Item>
+</Replace>
+
+
+# The above custom profile blocks the developers tools option for the Chrome Browser
+# Pre-requisite -- Push the Chrome ADMX to devices as custom profile -- Link to Chrome ADMX profile -->  https://github.com/jsdw1/WorkspaceONE-UEM-Chrome-Browser-Custom-Profiles/blob/main/Custom%20Profile%20Chrome%20ADMX
