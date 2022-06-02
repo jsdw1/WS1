@@ -1,0 +1,4 @@
+<Replace><CmdID>21</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallBlocklist</LocURI></Target><Data><![CDATA[<enabled/> <data id="ExtensionInstallBlocklistDesc" value="1&#xF000;*"/>]]></Data></Item></Replace>
+
+
+# The above custom profile blocks the user from installing extensions on Chrome Browser on Windows 10/11 devices
