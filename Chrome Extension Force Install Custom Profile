@@ -1,1 +1,4 @@
 <Replace><CmdID>41</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist</LocURI></Target><Data><![CDATA[<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000;aapbdbdomjkkjkaonfhkkikfgjllcleb;https://clients2.google.com/service/update2/crx&#xF000;2&#xF000;aeblfdkhhhdcdjpifhhbdiojplfjncoa;https://clients2.google.com/service/update2/crx"/>]]></Data></Item></Replace>
+
+
+# Replace the extension ID of your own requirement and keep the rest of content same and push it as custom settings to Windows 10/11 Chrome browser.
