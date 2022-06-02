@@ -1,0 +1,5 @@
+<Replace><CmdID>c90f3be0-0916-4cdc-ab0c-587176a08bfd</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome/IncognitoModeAvailability</LocURI></Target><Data><![CDATA[<enabled/> <data id="IncognitoModeAvailability" value="1" />]]></Data></Item></Replace>
+
+
+# The above lets you disable the incognito Window on Chrome Browser for Windows 10/11 devies
+# Pre-requisite -- Push the Chrome ADMX to devices as custom profile -- Link to Chrome ADMX profile -->  https://github.com/jsdw1/WorkspaceONE-UEM-Chrome-Browser-Custom-Profiles/blob/main/Custom%20Profile%20Chrome%20ADMX
