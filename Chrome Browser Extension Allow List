@@ -1,0 +1,7 @@
+# Install settings
+
+<Replace><CmdID>24</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallAllowlist</LocURI></Target><Data><![CDATA[<enabled/> <data id="ExtensionInstallAllowlistDesc" value="1&#xF000;aapbdbdomjkkjkaonfhkkikfgjllcleb&#xF000;2&#xF000;aapbdbdomjkkjkaonfhkkikfgjllcleb&#xF000;3&#xF000;kgjfgplpablkjnlkjmjdecgdpfankdle&#xF000;4&#xF000;afepblghhgmbjmpobllnaeaoclogcnii"/>]]></Data></Item></Replace>
+
+# Remove Settings
+
+<Delete><CmdID>24</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallAllowlist</LocURI></Target><Data><![CDATA[<enabled/> <data id="ExtensionInstallAllowlistDesc" value="1&#xF000;aapbdbdomjkkjkaonfhkkikfgjllcleb&#xF000;2&#xF000;aapbdbdomjkkjkaonfhkkikfgjllcleb&#xF000;3&#xF000;kgjfgplpablkjnlkjmjdecgdpfankdle&#xF000;4&#xF000;afepblghhgmbjmpobllnaeaoclogcnii"/>]]></Data></Item></Delete>
