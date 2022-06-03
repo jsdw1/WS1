@@ -1,5 +1,13 @@
+#Install Settings
+
 <Replace><CmdID>21</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallBlocklist</LocURI></Target><Data><![CDATA[<enabled/> <data id="ExtensionInstallBlocklistDesc" value="1&#xF000;*"/>]]></Data></Item></Replace>
 
+#Remove Settings
+
+<Delete><CmdID>21</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallBlocklist</LocURI></Target><Data><![CDATA[<enabled/> <data id="ExtensionInstallBlocklistDesc" value="1&#xF000;*"/>]]></Data></Item></Delete>
+
+
+=========================================================================================================================================================================================================================================================================================
 
 # The above custom profile blocks the user from installing extensions on Chrome Browser on Windows 10/11 devices
 # Pre-requisite -- Push the Chrome ADMX to devices as custom profile -- Link to Chrome ADMX profile -->  https://github.com/jsdw1/WorkspaceONE-UEM-Chrome-Browser-Custom-Profiles/blob/main/Custom%20Profile%20Chrome%20ADMX
