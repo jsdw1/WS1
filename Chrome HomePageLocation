@@ -1,0 +1,8 @@
+#Install Settings
+
+<Replace><CmdID>131</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/HomepageLocation</LocURI></Target><Data><![CDATA[<enabled/> <data id="HomepageLocation" value="https://www.flex.com"/>]]></Data></Item></Replace>
+
+
+#Remove Settings
+
+<Delete><CmdID>131</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/HomepageLocation</LocURI></Target><Data><![CDATA[<enabled/> <data id="HomepageLocation" value="https://www.flex.com"/>]]></Data></Item></Delete>
