@@ -1,0 +1,7 @@
+#Install Settings
+
+<Replace><CmdID>141</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/ShowHomeButton</LocURI></Target><Data><![CDATA[<enabled/>]]></Data></Item></Replace>
+
+#Remove Settings
+
+<Delete><CmdID>141</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/ShowHomeButton</LocURI></Target><Data><![CDATA[<enabled/>]]></Data></Item></Delete>
