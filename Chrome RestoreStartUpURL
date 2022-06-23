@@ -1,0 +1,9 @@
+#Install Settings
+
+
+<Replace><CmdID>360</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartupURLs</LocURI></Target><Data><![CDATA[<enabled/><data id="RestoreOnStartupURLsDesc" value="1&#xF000;https://www.abc.com"/>]]></Data></Item></Replace>
+
+
+#Remove Settings
+
+<Delete><CmdID>360</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartupURLs</LocURI></Target><Data><![CDATA[<enabled/><data id="RestoreOnStartupURLsDesc" value="1&#xF000;https://www.abc.com"/>]]></Data></Item></Delete>
