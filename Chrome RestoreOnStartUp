@@ -1,0 +1,7 @@
+#Install Settings
+
+<Replace><CmdID>370</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartup</LocURI></Target><Data><![CDATA[<enabled/><data id="RestoreOnStartup" value="4"/>]]></Data></Item></Replace>
+
+#Remove Settings
+
+<Delete><CmdID>370</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartup</LocURI></Target><Data><![CDATA[<enabled/><data id="RestoreOnStartup" value="4"/>]]></Data></Item></Delete>
